@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Fcc Survey Form</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="wrapper">
+<center> 
+<header>
+  <h1 id="title">Survey Form</h1>
+</header>
+  <h4><p id="description">Please spare a few minutes to help us improve FCC..click the image below to start..</p></h4>
+<a id="start" href="#go"><img  class="board img-responsive" src=" https://github.com/rkm09/FCC/blob/master/b1.png?raw=true" alt="feedback"/></a><br><br>  
+ </center> </div>
+<div id="go" class="container">
+<div class="form1"> 
+  <form id="survey-form" action="#" method="get">
+   <fieldset >
+    <legend>Your experience at FCC</legend><br>
+     <div class="label-pers"> <label id="name-label" for="name">*Name:</label></div>
+     <div class="field-pers"><input type="text" id="name" name="name" placeholder="Enter your name" required></div><br>
+     <div class="label-pers"> <label id="email-label" for="email">*Email:</label></div>
+     <div class="field-pers"><input type="email" id="email"  name="email" placeholder="Enter your email" required></div><br>
+     <div class="label-pers"><label id="number-label" for="age">*Age:</label></div>
+     <div class="field-pers"><input type="number" id="number" name="age" placeholder="Age" min="1" max ="110" required></div>
+    </fieldset>
+     <br><br>
+    <!--- role -->
+    
+    <label for="role"> Which option best describes your current role?</label>
+    <select id="dropdown">
+      <option selected disabled>Select an option</option>
+      <option>Student</option>
+      <option>Full Time Job</option>
+      <option>Full Time Learner</option>
+      <option>Prefer Not To Say</option>
+      <option>Other</option>
+    </select> 
+    <br><br> 
+    <!-- will you? -->   
+    
+ <fieldset >
+   <legend>*How likely is it that you would recommend freeCodeCamp to a friend?</legend><br>
+ <input type="radio" id="definitely" name="radAns" value="definitely"><label for="definitely"> Definitely</label><br>
+<input type="radio" id="maybe" name="radAns" value="maybe"><label for="maybe"> May be</label>
+<br>
+<input type="radio" id="notsure" name="radAns" value="notsure"><label for="notsure"> Not sure</label>
+<br>
+</fieldset>
+<br> 
+    <!--like-->
+    
+<label for="like"> What do you like most in FCC?</label>
+<select>
+  <option selected disabled>Select an option</option>
+  <option>Challenges</option>
+  <option>Projects</option>
+  <option>Community</option>
+  <option>Opensource</option>
+</select> 
+<br><br> 
+<!--improve-->
+    
+<fieldset>
+ <legend>Things that should be improved in the future
+(Check all that apply)</legend><br>
+<input type="checkbox" id="frontend" value="frontend"><label for="frontend"> Front-end Projects</label>
+<br>
+<input type="checkbox" id="backend" value="backend"><label for="backend"> Back-end Projects</label>
+<br>
+<input type="checkbox" id="viz" value="viz"><label for="viz"> Data Visualization</label>
+<br>   
+<input type="checkbox" id="challenges" value="challenges"><label for="challenges"> Challenges</label><br> 
+<input type="checkbox" id="open" value="open"><label for="open"> Open Source Community</label>
+<br> 
+<input type="checkbox" id="help" value="help"><label for="help"> Gitter help rooms</label>
+<br> 
+<input type="checkbox" id="vid" value="vid"><label for="vid"> Videos</label>
+<br> 
+<input type="checkbox" id="meet" value="meet"><label for="meet"> City Meetups</label>
+<br> 
+<input type="checkbox" id="wiki" value="wiki"><label for="wiki"> Wiki</label>
+<br> 
+<input type="checkbox" id="forum" value="forum"><label for="forum"> Forum</label>
+<br> 
+<input type="checkbox" id="add" value="add"><label for="add"> Additional Courses</label>
+<br> 
+</fieldset>
+<br>
+    <!-- comments-->
+    
+ <p>Any Comments or Suggestions?</p>
+<textarea rows="5" cols="50" placeholder="Enter your comment here ..."></textarea>
+<br><br>
+<input type="submit" id="submit" name="submit">
+</form>
+  
+</div>
+  <!--end of form-->
+  
+
+<br>
+<footer>
+  ~ Coded with  <i class="fa fa-heart" style="color:#ff9999"></i>  by rm09 ~
+</footer>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

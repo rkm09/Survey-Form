@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Delius');
+body{ 
+  font-size:22px;
+  font-family:'Delius',Arial;
+  background: linear-gradient(25deg,pink,#ccffcc,pink);
+}
+h4{
+  opacity:0.5;
+}
+
+.board{
+  border-radius:50px;
+  border:2px solid rosybrown;
+  box-shadow: 10px 10px 5px #888888;
+}
+.board:hover,.board:active{
+  transform:scale(1.01);
+  box-shadow: 0px 0px 8px 8px #ceebfd;
+}
+.container{
+  padding:10px 150px 10px 150px;
+}
+.form1{
+  padding:30px 60px 30px 60px;
+  background-color:#e6f2ff;
+  border-radius:25px;
+  border:5px solid  #ccffe6;
+  box-shadow: 2px 2px 3px 6px #b3b3b3;
+}
+img{
+  display:block;
+  max-width:100%;
+  height:auto;
+}
+header{  
+  font-family:'Delius',Arial;
+  letter-spacing:2px;
+}
+fieldset{
+  border: 2px solid #a6a6a6;
+  border-radius:25px;
+}
+.label-pers{
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  width: 35%;
+  padding: 5px;
+  margin-top: 8px;
+}
+input[type="text"],input[type="number"],input[type="email"]{
+  padding:8px;
+  width:260px;
+  border: 2px solid #a6a6a6;
+  border-radius:25px;
+  font-size:22px;
+  font-family:'Delius',Arial;
+}
+input[type="text"]:focus,input[type="number"]:focus,input[type="submit"],input[type="email"]:focus:focus {
+    outline: none !important;
+    
+    box-shadow: 0 0 15px #8C8C8C; 
+}
+.field-pers{
+  display: inline-block;
+  text-align: left;
+  vertical-align: center;
+  margin-top: -8px;
+  padding: 10px;
+  width:60%;
+}
+
+select{
+  padding:10px;
+  background-color: #ffe6e6;
+  margin-left:20px;
+  border:1px solid pink;
+  font-family:'Delius',Arial;
+  font-size:18px;
+  border-radius:25px;
+  
+}
+select:focus,select:active{
+  outline:none !important;
+  background:#FFB8F5;
+  
+}
+ option{
+  background:#FFB8F5;
+}
+
+#submit{
+  display:block;
+  padding:15px;
+  margin:auto;
+  background-color: #ffe6e6;
+  border:2px solid #ffb3b3;
+  border-radius:25px;
+  font-family:'Delius',Arial;
+  font-size:22px;
+  cursor:pointer;
+}
+#submit:hover{
+  transform:scale(1.2);
+  border:3px solid #ffb3b3;
+}
+
+textarea{
+  padding:10px;
+  display:block;
+  margin:auto;
+  font-family:'Delius',Arial;
+  font-size:22px;
+  width:97%;
+  box-shadow:1px 1px 3px 3px pink;
+  border: 2px solid #a6a6a6;
+  border-radius:25px; 
+}
+
+input[type="checkbox"],input[type="radio"] {
+  transform:scale(1.5, 1.5);
+}
+textarea:focus {
+    outline: none !important;
+    border:1px solid #cccccc inset;
+    box-shadow: 0 0 15px #8C8C8C; 
+}
+
+footer{
+  display:flex;
+  flex-direction:"row";
+  justify-content:center;
+  padding:10px;
+  opacity:0.7;
+  font-family:'Merienda',Arial;
+  font-size:13px;
+}
+footer i{
+  padding:4px 6px 0 6px;
+  transform:scale(1.5); 
+}
+
+@media (max-width:800px){
+  .container{width:400px;}
+  .form1{width:300px;}
+}
